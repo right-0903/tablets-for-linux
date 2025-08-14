@@ -70,7 +70,7 @@ Status: Downstreamed, Indefinitely suspended
 
 ## Ntmer Robo & Kala TW220
 Spec.:
-* SC8280XP@3.0GHz
+* SC8280XP@3GHz
 * 16G LPDDR4X (128bit@2092MHz)
 * 512GB NVME SSD (PCIe Gen3x4)
 * 2560 $\times$ 1600@60Hz
@@ -100,7 +100,7 @@ See [TW220](./TW220).
 
 ## Huawei Matebook E Go (8cx Gen 3)
 Spec.:
-* SC8280XP@3.0GHz
+* SC8280XP@3GHz
 * 16G LPDDR4X (128bit@2133MHz)
 * 512GB NVME SSD (PCIe Gen3x4)
 * 2560 $\times$ 1600@120Hz
