@@ -1,0 +1,8 @@
+dts:
+	https://lore.kernel.org/linux-arm-msm/20250617092929.1492750-1-mitltlatltl@gmail.com/
+camera:
+	https://patchwork.kernel.org/project/linux-media/cover/20200902224813.14283-1-tfiga@chromium.org/
+gpi dma:
+	https://lore.kernel.org/linux-arm-msm/20250617090032.1487382-1-mitltlatltl@gmail.com/
+stylus support:
+	https://lore.kernel.org/linux-input/20250710115733.226670-1-mitltlatltl@gmail.com/

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>RM69380</PanelName>
+<PanelDescription>RM69380 N1 Dual DSI Video Mode Panel (1600x2560 24bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive units="Dot Clocks">2560</HorizontalActive>
+ <HorizontalFrontPorch units="Dot Clocks">32</HorizontalFrontPorch>
+ <HorizontalBackPorch units="Dot Clocks">38</HorizontalBackPorch>
+ <HorizontalSyncPulse units="Dot Clocks">12</HorizontalSyncPulse>
+ <HorizontalSyncSkew units="Dot Clocks">0</HorizontalSyncSkew>
+ <HorizontalLeftBorder units="Dot Clocks">0</HorizontalLeftBorder>
+ <HorizontalRightBorder units="Dot Clocks">0</HorizontalRightBorder>
+ <VerticalActive units="Dot Clocks">1600</VerticalActive>
+ <VerticalFrontPorch units="Lines">20</VerticalFrontPorch>
+ <VerticalBackPorch units="Lines">8</VerticalBackPorch>
+ <VerticalSyncPulse units="Lines">4</VerticalSyncPulse>
+ <VerticalSyncSkew units="Lines">0</VerticalSyncSkew>
+ <VerticalTopBorder units="Lines">0</VerticalTopBorder>
+ <VerticalBottomBorder units="Lines">0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType units="QDI_DisplayConnectType">8</InterfaceType>
+ <InterfaceColorFormat units="QDI_PixelFormatType">3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId units="DSI_Channel_IDType">1</DSIChannelId>
+ <DSIVirtualId units="DSI_Display_VCType">0</DSIVirtualId>
+ <DSIColorFormat units="DSI_ColorFormatType">36</DSIColorFormat>
+ <DSITrafficMode units="DSI_TrafficModeType">1</DSITrafficMode>
+ <DSILanes units="integer">4</DSILanes>
+ <DSILP11AtInit>True</DSILP11AtInit>
+   <DSIHsaHseAfterVsVe units='Bool'>False</DSIHsaHseAfterVsVe>
+   <DSILowPowerModeInHFP units='Bool'>False</DSILowPowerModeInHFP>
+   <DSILowPowerModeInHBP units='Bool'>False</DSILowPowerModeInHBP>
+   <DSILowPowerModeInHSA units='Bool'>False</DSILowPowerModeInHSA>
+   <DSILowPowerModeInBLLPEOF units='Bool'>True</DSILowPowerModeInBLLPEOF>
+   <DSILowPowerModeInBLLP units='Bool'>True</DSILowPowerModeInBLLP>
+   <DSIRefreshRate units='integer Q16.16'>0x3C0000</DSIRefreshRate>
+   <DSIPhyDCDCMode units='Bool'>False</DSIPhyDCDCMode>
+ <DSIPacketTransferHS>False</DSIPacketTransferHS>
+ <DSIControllerMapping>
+  00 01
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+ FD 03
+ 15 FE 26
+ 15 81 01
+ 15 93 20
+ 15 8A 01
+ 15 8C 02
+ 15 8D 00
+ 15 8E 20
+ 15 8F 20
+ 15 1D 17
+ 15 FE 40
+ 15 B2 09
+ 15 B3 06
+ 15 B4 00
+ 15 B5 00
+ 15 AE 21
+ 15 A6 01
+ 15 FE 00
+ 15 C2 08
+ 15 35 00
+ 29 51 03 FF
+ 05 11 00
+ FF 96
+ 05 29 00
+ FF 30
+</DSIInitSequence>
+<DSITermSequence>
+ FD 03
+ 15 FE 00
+ 05 28
+ FF 78
+ 05 10
+ FF 65
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+    <BacklightSteps>100</BacklightSteps>
+    <BacklightDefault>80</BacklightDefault>
+    <BacklightLowPower>40</BacklightLowPower>
+    <BrightnessMinLuminance>0</BrightnessMinLuminance>
+    <BrightnessMaxLuminance>400</BrightnessMaxLuminance>
+    <BrightnessRangeLevel0>500 375500 500 2</BrightnessRangeLevel0>
+    <AdaptiveBrightnessFeature>0</AdaptiveBrightnessFeature>
+    <CABLEnable>False</CABLEnable>
+</Group>

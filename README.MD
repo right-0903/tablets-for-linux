@@ -96,7 +96,7 @@ Status: Downstreamed, Indefinitely suspended
 | Mic                         | works  | Wi-Fi                       | works  |
 
 ### source
-*To be synced*
+See [TW220](./TW220).
 
 ## Huawei Matebook E Go (8cx Gen 3)
 Spec.:
