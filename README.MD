@@ -11,6 +11,31 @@ This repository is a collection of tablets I’ve brought up to run Linux
 (some possibly based on existing work). For now, most of them are
 Qualcomm-based. Just setting up this repo as a personal log/documentation.
 
+## Lenovo Legion Y700 Gen4
+Spec.: SM8750P 16G LPDDR5X (128bit@4761MHz) + 512GB UFS 4.0 +
+3040 $\times$ 1904@165Hz
+
+Price: $\approx$ 360 USD @ 10/2028
+
+Status: work in progress
+
+### feature matrix
+| Feature                     | Status | Feature                     | Status |
+|-----------------------------|--------|-----------------------------|--------|
+| Audio                       | x      | Sensors                     | x      |
+| Backlight                   | works  | Stylus                      | works  |
+| Battery                     | works  | Suspend                     | works  |
+| Bluetooth                   | x      | Thermal sensors             | ?      |
+| Camera                      | x      | Touchscreen over spi        | works  |
+| Charge(Fast)                | works  | UFS                         | works  |
+| Display                     | x      | USB(2 connectors)           | works  |
+| GPU                         | ?      | USB-C DisplayPort Alt Mode  | ?      |
+| Mic                         | x      | Video acceleration          | x      |
+| Power key & Volume key      | works  | Wi-Fi(WCN7861)              | x      |
+
+### source
+*To be synced*
+
 ## Lenovo Yoga Pad Pro 12.7 (domestic) / Lenovo Yoga Tab Plus (global)
 Spec.: SM8650-AB 16G LPDDR5X (128bit@4224MHz) + 512GB UFS 4.0 +
 2944 $\times$ 1840@144Hz with keyboard bundle and stylus
