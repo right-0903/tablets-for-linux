@@ -1,4 +1,4 @@
-These patches are used to verify kernel boot and display bringup.
+These patches are used to verify kernel boot and display bringup. (And there is a video for reference)
 Touch driver is not included for now (Untill the cleanup for downstream is finished)
 To verify, rebase onto next-20260723[1] (buggy, I will suggest you backport to stable version)
 
